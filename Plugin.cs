@@ -21,7 +21,7 @@ namespace music
         [PluginConfig]
         public Config Config;
 
-        [PluginEntryPoint("Music", "1.0", "ANBK", "罗小黑")]
+        [PluginEntryPoint("Music", "1.0", "Music", "罗小黑")]
         public void OnEnabled()
         {
             Instance = this;
